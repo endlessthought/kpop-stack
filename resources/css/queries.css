@@ -1,0 +1,232 @@
+/*PC/Laptop 1024-1200px*/
+@media only screen and (max-width: 1200px){
+	.row{
+		padding: 0 2%;
+	}
+}
+
+/*Tablet 768-1023px*/
+@media only screen and (max-width: 1023px){
+		body{
+			font-size: 18px;
+		}
+		section{
+			padding: 60px 0;
+		}
+		.long-copy{
+			width: 80%;
+		}
+		.step-box{
+			margin-top: 10px;
+		}
+		.steps-box:last-child{
+			margin-top: 10px;
+		}
+		.steps{
+			margin-bottom: 40px;
+		}
+		.steps:last-of-type{
+			margin-bottom: 80px;
+		}
+		.app-screen{
+			width: 50%;
+		}
+		.icon-small{
+			margin-right: 5px;
+			width: 15px;
+		}
+		.city-feature{
+			font-size: 90%;
+		}
+		.plan-box{
+			width: 100%;
+			margin: 0;
+		}
+		.plan-price{
+			font-size: 200%;
+		}
+		.contact-form{
+			width: 80%;
+		}
+}
+
+/*Tablet 481-767px*/
+@media only screen and (max-width: 767px){
+	header{
+		padding-top: 1%;
+	}
+	body{
+		font-size: 16px;
+	}
+	section{
+		padding: 30px 0;
+	}
+	.row {
+		padding: 0 4%;
+	}
+	.col{
+		margin: 1% 0 1% 1.6%;
+	}
+	.col:first-child {
+    	margin: 1% 0 1% 1.6%;
+	}
+	.main-nav{
+		display: block;
+	    margin-top: 0.5rem;	
+	}
+	.main-nav{
+		display: none;
+	}
+	.main-nav li{
+		display: block;
+		text-align: center;
+		margin: 1% 0;
+		
+	}
+	.main-nav li a{
+		font-size: 120%;
+		border: 0;
+		margin-bottom: 0.5rem;
+    	display: inline-block;
+	}
+	.main-nav li:hover a{
+		border: 0;
+	}
+	nav{
+		justify-content: space-between;
+		padding: 0 5%;
+	}
+	.logo{
+		height: 75px;
+	}
+	.mobile-nav-icon{
+		display: inline-block;
+	}
+	.sticky-nav .mobile-nav-icon i{
+		font-size: 250%;
+		color: #555;
+	}
+	.section-features{
+		margin-bottom: 25px;
+	}
+	.col{
+		width: 48%;
+	}
+	.btn{
+		margin-bottom: 10px;
+	}
+	h1{
+		font-size: 170%;
+	}
+	h2{
+		font-size: 140%;
+	}
+	.long-copy{
+		width: 100%;
+	}
+	.meals-showcase li {
+    	width: 50%;
+	}
+	.app-screen{
+		width: 40%;	
+	}
+	.btn-app-container{
+		text-align: center;
+	}
+	.btn-app{
+		display: inline-block;
+	}
+	.btn-app img{
+		height: 45px;
+    	width: 144px;
+	}
+	blockquote::before{
+		top: 12px;
+    	left: -5px;
+	}
+	.section-testimonials cite{
+		text-align: center;
+	}
+	.section-testimonials cite::before{
+		content: '-';
+		margin-right: 5px;
+		font-weight: 700;
+	}
+	.section-testimonials .col:last-of-type{
+		width: 100%;
+	}
+	.section-plans .col:last-of-type{
+		margin-right: 25%;
+		margin-left: 25%;
+	}
+	.section-plans .plan-box{
+		width: 100%;
+	}
+	.contact-form{
+		width: 90%;
+	}
+	label{
+		display: inline-block;
+		margin: 5px 0;
+		padding-left: 7px;
+	}
+	footer .row .col{
+		width: 100%;
+		font-size: 15px;
+		margin-bottom: 10px;
+		flex-direction: row;
+	}
+	.footer-nav li, .social-links li{
+		margin-right: 15px;
+	}
+	.footer-nav li:last-child, .social-links li:first-child {
+    	 margin-right: 15px; 
+	}
+	.footer-nav,
+	.social-links {
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	footer p{
+		margin-top: 10px;
+	}
+
+}
+
+/*Mobile 0-480px*/
+@media only screen and (max-width: 480px){
+	section{
+		padding: 25px 0;
+	}
+	.col{
+		width: 100%;
+	}
+	.app-screen{
+		width: 30%;
+	}
+	.steps{
+		margin-bottom: 20px;
+	}
+	blockquote{
+		margin-bottom: 20px;
+	}
+
+	.contact-form{
+		width: 100%;
+	}
+	.section-plans .col:last-of-type{
+		margin:1% 0 1% 1.6%;;
+	}
+	.section-plans .plan-box{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.contact-form .row{
+		margin-bottom: 15px;
+	}
+	.contact-form input[type="submit"]{
+		text-align: center;
+		width: 100%;
+	}
+}
